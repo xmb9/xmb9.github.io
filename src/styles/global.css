@@ -1,0 +1,79 @@
+:root {
+	color-scheme: light dark;
+	--bg: #fff;
+	--fg: #1a1a1a;
+	--muted: #666;
+	--accent: #2337ff;
+	--border: #e5e5e5;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #111;
+		--fg: #e8e8e8;
+		--muted: #999;
+		--accent: #8ab4ff;
+		--border: #2a2a2a;
+	}
+}
+
+body {
+	max-width: 40rem;
+	margin: 0 auto;
+	padding: 1rem;
+	font: 18px/1.6 system-ui, sans-serif;
+	background: var(--bg);
+	color: var(--fg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5em;
+	line-height: 1.2;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 400;
+	color: var(--muted);
+	font-style: italic;
+}
+
+h6 {
+	font-size: 0.9em;
+	color: var(--muted);
+}
+
+a {
+	color: var(--accent);
+}
+
+time {
+	color: var(--muted);
+}
+
+header {
+	margin-bottom: 1.5rem;
+	padding-bottom: 0.75rem;
+	border-bottom: 1px solid var(--border);
+}
