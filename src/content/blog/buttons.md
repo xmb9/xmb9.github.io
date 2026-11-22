@@ -4,7 +4,7 @@ description: 'Buttons, buttons, buttons galore!'
 pubDate: 'January 1 1970'
 ---
 
-[![Me](/assets/button.png)](https://malborge.cfd)
+[![Me](/assets/button.gif)](https://malborge.cfd)
 
 ---
 
